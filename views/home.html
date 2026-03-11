@@ -1,5 +1,15 @@
-<div class="hero glass-box">
-    <span class="hero-emoji" aria-hidden="true">👨‍💻</span>
-    <h1>Vivek Kumar</h1>
-    <p>IT DEVELOPER | SCALABLE WEB & MOBILE APPS</p>
-</div>
+<section class="screen-card home-screen">
+    <header class="screen-topline">
+        <div class="status-pill">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>{{ main.profile.availability }}</span>
+        </div>
+        <p class="location-label">{{ main.profile.location }}</p>
+    </header>
+
+    <div class="screen-center">
+        <div class="hero-emoji" aria-hidden="true">{{ main.profile.emoji }}</div>
+        <h1 class="hero-title">{{ main.profile.title }}</h1>
+        <p class="hero-subtitle">{{ main.profile.subtitle }}</p>
+    </div>
+</section>

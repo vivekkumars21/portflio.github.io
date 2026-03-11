@@ -17,10 +17,9 @@ app.controller('MainController', ['$location', function ($location) {
 
     vm.profile = {
         availability: 'Available for Work',
-        location: 'Based in Tokyo',
+        location: 'Based in India',
         emoji: '\uD83D\uDC68\u200D\uD83D\uDCBB',
         title: 'Creative Director & Developer',
-        subtitle: 'Minimalism & Functionality',
         description: 'I design and build polished web experiences with strong visual hierarchy, clean interaction, and production-ready frontend engineering.',
         copyright: '© 2026 vivekkumar'
     };

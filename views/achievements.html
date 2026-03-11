@@ -1,11 +1,12 @@
-<div class="glass-box">
-    <span class="section-label">ACHIEVEMENTS</span>
-    <div class="achievement-item">
-        <span class="achievement-year">CURRENT</span>
-        <p style="font-size: 18px;">Tech Head of ISTE SAL</p>
+<section class="glass-box">
+    <span class="section-label">Achievements</span>
+    <div class="achievements-list">
+        <article class="achievement-row" ng-repeat="item in main.achievements track by item.title">
+            <div class="achievement-num">0{{ $index + 1 }}</div>
+            <div>
+                <span class="achievement-when">{{ item.when }}</span>
+                <p class="achievement-name">{{ item.title }}</p>
+            </div>
+        </article>
     </div>
-    <div class="achievement-item">
-        <span class="achievement-year">ONGOING</span>
-        <p style="font-size: 18px;">Active Hackathon Participant</p>
-    </div>
-</div>
+</section>
